@@ -5,16 +5,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header .general-header {
+body header .general-header {
   display: flex;
   justify-content: space-between;
   padding: 8px 120px;
   background-color: rgb(92, 92, 92);
 }
-header .general-header .header-content {
+body header .general-header .header-content {
   color: rgb(252, 181, 0);
 }
-header .logo-header {
+body header .logo-header {
   box-sizing: border-box;
   display: block;
   margin-top: -25px;
@@ -22,7 +22,7 @@ header .logo-header {
   justify-content: center;
   align-items: center;
 }
-header .main {
+body header .main {
   margin-top: -100px;
   box-sizing: border-box;
   padding: 25px 100px;
@@ -30,16 +30,105 @@ header .main {
   justify-content: space-between;
   background-color: rgb(243, 242, 242);
 }
-header .main a {
+body header .main a {
   text-decoration: none;
   padding: 0px 20px;
 }
-header a:link {
+body header a:link {
   color: black;
 }
-header a:visited {
+body header a:visited {
   color: black;
 }
-header a:hover {
+body header a:hover {
   color: rgb(97, 97, 97);
+}
+body .banner img {
+  position: relative;
+  z-index: -1;
+  filter: brightness(40%);
+}
+body .banner .text-in-banner {
+  position: relative;
+  top: -300px;
+  text-align: center;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body .banner .text-in-banner .extra-text {
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 20px;
+}
+body .food-images {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  margin-top: -75px;
+}
+body .food-images .big-image {
+  display: block;
+}
+body .food-images .small-images {
+  margin-left: 33px;
+}
+body .food-images .small-images .image-small-right {
+  margin-left: 33px;
+}
+body .food-images .last-image {
+  margin-top: 33px;
+}
+body .main-menu {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 140px;
+}
+body .main-menu .list {
+  box-sizing: border-box;
+  display: block;
+  line-height: 3;
+}
+body .main-menu .list a {
+  text-decoration: none;
+}
+body .main-menu .list li {
+  list-style: none;
+}
+body .main-menu .list a:link {
+  color: black;
+}
+body .main-menu .list a:visited {
+  color: black;
+}
+body .main-menu .list a:hover {
+  color: rgb(97, 97, 97);
+}
+body .main-menu .rice-food {
+  display: flex;
+}
+body .main-menu .rice-food button {
+  border-radius: 10px;
+  background-color: #ffdd15;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+body .main-menu .rice-food .first-small-box {
+  border: gray solid 1px;
+}
+body .main-menu .rice-food .second-small-box {
+  border: gray solid 1px;
+}
+body .main-menu .rice-food .three-small-box {
+  border: gray solid 1px;
+}
+body .main-menu .rice-food .color {
+  color: red;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

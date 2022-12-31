@@ -1,55 +1,149 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-header {
+body {
+  header {
     .general-header {
-        display: flex;
-        justify-content: space-between;
-        padding: 8px 120px;
-        background-color: rgb(92, 92, 92);
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 120px;
+      background-color: rgb(92, 92, 92);
 
-        .header-content {
-    
-            color: rgb(252, 181, 0);
-        }
+      .header-content {
+        color: rgb(252, 181, 0);
+      }
     }
-    .logo-header{
-        box-sizing: border-box;
-        display: block;
-        margin-top: -25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .logo-header {
+      box-sizing: border-box;
+      display: block;
+      margin-top: -25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .main {
-        margin-top: -100px;
-        box-sizing: border-box;
-        padding: 25px 100px;
-        display: flex;
-        justify-content: space-between;
-        background-color: rgb(243, 242, 242);
+      margin-top: -100px;
+      box-sizing: border-box;
+      padding: 25px 100px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(243, 242, 242);
 
-        a {
-            text-decoration: none;  
-            padding: 0px 20px;
-        }
+      a {
+        text-decoration: none;
+        padding: 0px 20px;
+      }
     }
 
     a:link {
-        color: black;
+      color: black;
     }
 
-    a:visited{
+    a:visited {
+      color: black;
+    }
+
+    a:hover {
+      color: rgb(97, 97, 97);
+    }
+  }
+  .banner {
+    img {
+      position: relative;
+      z-index: -1;
+      filter: brightness(40%);
+    }
+    .text-in-banner {
+      position: relative;
+      top: -300px;
+      text-align: center;
+      color: white;
+      margin-left: 15%;
+      margin-right: 15%;
+
+      .extra-text {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 20px;
+      }
+    }
+  }
+  .food-images {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-top: -75px;
+    .big-image {
+      display: block;
+    }
+    .small-images {
+      margin-left: 33px;
+      .image-small-right {
+        margin-left: 33px;
+      }
+    }
+    .last-image {
+      margin-top: 33px;
+    }
+  }
+  .main-menu {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 140px;
+    .list {
+      box-sizing: border-box;
+      display: block;
+      a {
+        text-decoration: none;
+      }
+      li {
+        list-style: none;
+      }
+      line-height: 3;
+      a:link {
         color: black;
-    }
-    
-    a:hover{
+      }
+      a:visited {
+        color: black;
+      }
+      a:hover {
         color: rgb(97, 97, 97);
+      }
     }
+    .rice-food{
+        button{ 
+            border-radius: 10px;
+             background-color: #ffdd15;
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        display: flex;
+        .first-small-box{
+            border: gray solid 1px;
+            
+        }
+        .second-small-box{
+            border: gray solid 1px;
+        }
+        .three-small-box{
+            border: gray solid 1px;
+        }
+        .color{
+            color:red;
+            font-weight: bold;
+        }
+    }
+  }
 }
+
