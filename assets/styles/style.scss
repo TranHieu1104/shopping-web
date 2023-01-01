@@ -26,7 +26,7 @@ body {
       align-items: center;
     }
 
-    .main {
+    .navbar {
       margin-top: -100px;
       box-sizing: border-box;
       padding: 25px 100px;
@@ -178,11 +178,32 @@ body {
   .pizza-food {
     margin-left: 10%;
     margin-right: 10%;
+    text-align: center;
     .pizza {
       box-sizing: border-box;
       display: flex;
       justify-content: space-around;
       margin-top: 50px;
+      .first-small-box {
+        border: 1px solid gray;
+        border-radius: 2px;
+        padding-top: 10px;
+      }
+      .second-small-box {
+        border: 1px solid gray;
+        border-radius: 2px;
+        padding-top: 10px;
+      }
+      .three-small-box {
+        border: 1px solid gray;
+        border-radius: 2px;
+        padding-top: 10px;
+      }
+      .four-small-box {
+        border: 1px solid gray;
+        border-radius: 2px;
+        padding-top: 10px;
+      }
     }
     .pizza-content {
       margin-top: 10%;
@@ -206,27 +227,27 @@ body {
       cursor: pointer;
       margin-top: 20px;
     }
-  }
-  p {
-    line-height: 1.6;
-    text-align: left;
-    margin-left: 22px;
-  }
-  .color {
-    color: red;
-    font-weight: bold;
-  }
-  .color-yellow {
-    color: yellow;
-  }
-  .name-food {
-    font-weight: bold;
-  }
-  .name-foods {
-    color: white;
-    font-weight: bold;
-  }
-  .text-introduce {
-    color: white;
+    p {
+      line-height: 1.6;
+      text-align: left;
+      margin-left: 22px;
+    }
+    .color {
+      color: red;
+      font-weight: bold;
+    }
+    .color-yellow {
+      color: yellow;
+    }
+    .name-food {
+      font-weight: bold;
+    }
+    .name-foods {
+      color: white;
+      font-weight: bold;
+    }
+    .text-introduce {
+      color: white;
+    }
   }
 }
