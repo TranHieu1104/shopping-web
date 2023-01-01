@@ -105,7 +105,11 @@ body .main-menu .list a:hover {
   color: rgb(97, 97, 97);
 }
 body .main-menu .rice-food {
+  position: relative;
   display: flex;
+  justify-content: space-between;
+  margin-top: -344px;
+  margin-left: 320px;
 }
 body .main-menu .rice-food button {
   border-radius: 10px;
@@ -118,17 +122,98 @@ body .main-menu .rice-food button {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
 }
 body .main-menu .rice-food .first-small-box {
-  border: gray solid 1px;
+  box-sizing: border-box;
+  text-align: center;
 }
 body .main-menu .rice-food .second-small-box {
-  border: gray solid 1px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #bf162e;
+  padding-top: 10px;
+  margin-top: -40px;
+  border-radius: 2px;
+  height: 500px;
 }
 body .main-menu .rice-food .three-small-box {
-  border: gray solid 1px;
+  box-sizing: border-box;
+  text-align: center;
+}
+body .main-menu .rice-food p {
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 22px;
 }
 body .main-menu .rice-food .color {
   color: red;
   font-weight: bold;
+}
+body .main-menu .rice-food .color-yellow {
+  color: yellow;
+}
+body .main-menu .rice-food .name-food {
+  font-weight: bold;
+}
+body .main-menu .rice-food .name-foods {
+  color: white;
+  font-weight: bold;
+}
+body .main-menu .rice-food .text-introduce {
+  color: white;
+}
+body .pizza-food {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body .pizza-food .pizza {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+body .pizza-food .pizza-content {
+  margin-top: 10%;
+  text-align: center;
+  align-content: center;
+}
+body .pizza-food .pizza-content h1 {
+  color: #e67e22;
+}
+body .pizza-food button {
+  border-radius: 5px;
+  background-color: #ffdd15;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+body p {
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 22px;
+}
+body .color {
+  color: red;
+  font-weight: bold;
+}
+body .color-yellow {
+  color: yellow;
+}
+body .name-food {
+  font-weight: bold;
+}
+body .name-foods {
+  color: white;
+  font-weight: bold;
+}
+body .text-introduce {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
