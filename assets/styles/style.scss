@@ -359,39 +359,51 @@ body {
       margin-top: 20px;
     }
   }
-  .address {
-    display: flex;
-    justify-content: space-around;
-    .question {
-      details {
-        color: rgb(0, 0, 0);
-        background-color: #ffffff;
-        border-bottom: 1px solid rgb(138, 132, 132);
-      }
-      summary {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        transition: height 1s ease;
-        padding: 20px;
-      }
-      summary:after {
-        content: "\002B";
-      }
-      details[open]summary {
-        color: #e67e22;
-      }
-      details[open] summary:after {
-        content: "\00D7";
-        color: #e67e22;
-      }
+  .address{
+    h1{
+      color:#e67e22;
+      font-size: xx-large;
+      text-align: center;
     }
     .information{
-        h1{
-        color:#e67e22;
-        font-size: x-large;
-        text-align: center;
-        }
+      display: flex;
+    }
+    details{
+      margin: 50px 0px;
+    }
+    img{
+      margin: 30px 150px;
     }
   }
+  footer{
+    display: flex;
+    background: rgb(46, 46, 46);
+    padding: 20px 0px;
+    .text-box-1{
+      color:white;
+      padding-top: 40px;
+      p{
+        margin-left: 200px;
+      }
+    }
+    .text-box-2{
+      margin-left: 70px;
+      color: white;
+      padding-top: 40px;
+      .text-border{
+        border-bottom: 1px solid gray;
+      }
+      p{
+       margin: 0px 0px;
+      }
+      .last-text-box{
+        padding-top: 50px;
+      }
+    }
+    img{
+      margin: 35px 300px;
+    }
+  }
+  
+  
 }
