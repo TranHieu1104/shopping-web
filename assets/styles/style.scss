@@ -59,6 +59,16 @@ body {
       filter: brightness(40%);
       padding-bottom: 27px;
     }
+    .circle{
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #ffffff;
+      top: 85%;
+      left: 49.3%;
+      border-radius: 50%;
+
+    }
     .text-in-banner {
       position: absolute;
       text-align: center;
