@@ -51,12 +51,19 @@ body .main-cart {
 }
 body .main-cart p {
   font-size: 20px;
+  padding: 30px 0px;
 }
-body .main-cart .return-to-shop {
+body .main-cart .button {
   font-family: arial bold;
   font-size: large;
   border: none;
-  padding: 5px 50px;
+  padding: 10px 50px;
   background-color: orange;
   color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+body .main-cart .button:hover {
+  opacity: 1;
 }/*# sourceMappingURL=style-giohang.css.map */

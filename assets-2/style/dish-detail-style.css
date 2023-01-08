@@ -172,7 +172,7 @@ body .more-option .color {
 }
 body .more-option .name-food {
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 body .more-option button {
