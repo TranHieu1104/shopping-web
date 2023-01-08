@@ -38,18 +38,17 @@ body {
         text-decoration: none;
         padding: 0px 20px;
       }
-    }
-
-    a:link {
-      color: black;
-    }
-
-    a:visited {
-      color: black;
-    }
-
-    a:hover {
-      color: rgb(97, 97, 97);
+      a:link {
+        color: black;
+      }
+  
+      a:visited {
+        color: black;
+      }
+  
+      a:hover {
+        color: rgb(97, 97, 97);
+      }
     }
   }
   .banner {
@@ -58,6 +57,16 @@ body {
       z-index: -1;
       filter: brightness(40%);
       padding-bottom: 27px;
+    }
+    .circle{
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #ffffff;
+      top: 85%;
+      left: 49.3%;
+      border-radius: 50%;
+
     }
     .text-in-banner {
       position: absolute;
@@ -125,10 +134,10 @@ body {
     }
   }
   .main-menu {
-    padding: 80px 80px;
+   display:flex;
+    padding: 60px 80px;
     .list {
       box-sizing: border-box;
-      display: block;
       a {
         text-decoration: none;
       }
@@ -150,8 +159,9 @@ body {
       position: relative;
       display: flex;
       justify-content: space-between;
-      margin-top: -344px;
-      padding-left: 320px;
+      a{
+        text-decoration: none;
+      }
       button {
         border-radius: 10px;
         background-color: #ffdd15;
