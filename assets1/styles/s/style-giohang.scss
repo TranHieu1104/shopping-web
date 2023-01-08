@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    header {
+        .giohang-main {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 120px;
+            background-color: rgb(92, 92, 92);
+
+            .header-cart {
+                color: rgb(252, 181, 0);
+            }
+        }
+
+        .logo-cart {
+            box-sizing: border-box;
+            display: block;
+            margin-top: -25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-cart {
+            margin-top: -100px;
+            box-sizing: border-box;
+            padding: 25px 100px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(243, 242, 242);
+
+            a {
+                text-decoration: none;
+                padding: 0px 20px;
+              }
+        }
+
+        a:link {
+            color: black;
+          }
+      
+          a:visited {
+            color: black;
+          }
+      
+          a:hover {
+            color: rgb(97, 97, 97);
+          }
+    }
+
+    .main-cart {
+        text-align: center;
+        padding: 80px 0px;
+        background-color: bisque;
+        color: rgb(114, 114, 114);
+
+        p {
+            font-size: 20px;
+        }
+
+        .return-to-shop {
+            font-family: arial bold;
+            font-size: large;
+            border: none;
+            padding: 5px 50px;
+            background-color: orange;
+            color: #fff;
+        }
+
+        button:hover {
+            
+        }
+    }
+}
