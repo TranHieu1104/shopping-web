@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   body {
+    background-color: rgb(248, 238, 225);
     header {
       .general-header {
         display: flex;
@@ -33,7 +34,12 @@
         display: flex;
         justify-content: space-between;
         background-color: rgb(243, 242, 242);
-  
+
+
+        .divider{
+            color:rgb(97, 97, 97);
+        }
+        
         a {
           text-decoration: none;
           padding: 0px 20px;
@@ -51,7 +57,174 @@
         }
       }
     }
-    .product-main{
-        vertical-align: middle;
+    .main{
+        display: flex;
     }
+    .product-main{
+        img{
+            margin: 40px 150px;
+        }
+    }
+    .product-info{
+       a{ text-decoration: none;
+       }
+       a:link{
+        color: rgb(168, 168, 168);
+       }
+       a:visited{
+        color: rgb(168, 168, 168);
+       }
+       a:hover{
+        color: black;
+       }
+        padding: 40px 0px;
+        .information{
+            line-height: 1.6;
+            h1{
+                color:#555;
+                font-size: x-large;
+                padding: 15px 0px;
+                border-bottom: 5px solid rgb(231, 227, 227);
+            }
+            .value{
+                color: red;
+                font-weight: bolder;
+                font-size: x-large;
+                padding: 10px 0px;
+            }
+            p{
+                color:#7a9c59;
+            }
+        }
+        .number-button{
+            display: flex;
+        }
+        .button {
+            background-color: #ffdd15;
+            color: rgb(7, 7, 7);
+            padding: 0px 4px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          .number{
+           margin-top: 8px;
+           padding: 0px 20px;
+          }
+    }
+    .review{
+        border-top: 1px solid rgb(216, 214, 214);
+        a{
+            text-decoration: none;
+            color:#555;
+        }
+        padding: 15px 150px;
+        p{
+            padding: 30px 0px;
+            line-height: 1.8;
+            color:#555;
+        }
+        a:link{
+            color:#555;
+        }
+        a:visited{
+            color:#555;
+        }
+        a:hover{
+            color:rgb(0, 0, 0);
+        }
+    }
+    .more-option{
+        border-top: 1px solid rgb(216, 214, 214);
+        h1{
+            color:#555;
+            padding: 20px 120px;
+        }
+        .food{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 50px;
+            padding: 20px 120px;
+            text-align: center;
+            .small-box-1 {
+                border: 1px solid gray;
+                border-radius: 2px;
+                padding: 4px 4px;
+              }
+            }
+            .small-box-2 {
+              border: 1px solid gray;
+              border-radius: 2px;
+              padding: 4px 4px;
+            }
+            .small-box-3 {
+              border: 1px solid gray;
+              border-radius: 2px;
+              padding: 4px 4px;
+            }
+            .small-box-4 {
+              border: 1px solid gray;
+              border-radius: 2px;
+              padding: 4px 4px;
+            }
+            p{
+                color:#555;
+            }
+            .color {
+                color: red;
+                font-weight: bold;
+            }
+            .name-food {
+                font-weight: bold;
+                color: white;
+                font-weight: bold;
+            }
+            button {
+                border-radius: 10px;
+                background-color: #ffdd15;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 8px 20px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                margin-top: 20px;
+  }
+}
+
+footer{
+    display: flex;
+    background: rgb(46, 46, 46);
+    padding: 20px 0px;
+    .text-box-1{
+      color:white;
+      padding-top: 40px;
+      p{
+        margin-left: 200px;
+      }
+    }
+    .text-box-2{
+      margin-left: 70px;
+      color: white;
+      padding-top: 40px;
+      .text-border{
+        border-bottom: 1px solid gray;
+      }
+      p{
+       margin: 0px 0px;
+      }
+      .last-text-box{
+        padding-top: 50px;
+      }
+    }
+    img{
+      margin: 35px 300px;
+    }
+  }
 }
