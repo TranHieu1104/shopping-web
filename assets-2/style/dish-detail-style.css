@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body header .general-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 120px;
+  background-color: rgb(92, 92, 92);
+}
+body header .general-header .header-content {
+  color: rgb(252, 181, 0);
+}
+body header .logo-header {
+  box-sizing: border-box;
+  display: block;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .navbar {
+  margin-top: -100px;
+  box-sizing: border-box;
+  padding: 25px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 242, 242);
+}
+body header .navbar a {
+  text-decoration: none;
+  padding: 0px 20px;
+}
+body header .navbar a:link {
+  color: black;
+}
+body header .navbar a:visited {
+  color: black;
+}
+body header .navbar a:hover {
+  color: rgb(97, 97, 97);
+}
+body .product-main {
+  vertical-align: middle;
+}/*# sourceMappingURL=dish-detail-style.css.map */

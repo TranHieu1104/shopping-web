@@ -34,13 +34,13 @@ body header .navbar a {
   text-decoration: none;
   padding: 0px 20px;
 }
-body header a:link {
+body header .navbar a:link {
   color: black;
 }
-body header a:visited {
+body header .navbar a:visited {
   color: black;
 }
-body header a:hover {
+body header .navbar a:hover {
   color: rgb(97, 97, 97);
 }
 body .banner img {
@@ -111,11 +111,11 @@ body .food-images-test .right-1 .bottom-2 {
   align-items: flex-end;
 }
 body .main-menu {
-  padding: 80px 80px;
+  display: flex;
+  padding: 60px 80px;
 }
 body .main-menu .list {
   box-sizing: border-box;
-  display: block;
   line-height: 3;
 }
 body .main-menu .list a {
@@ -137,8 +137,9 @@ body .main-menu .rice-food {
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: -344px;
-  padding-left: 320px;
+}
+body .main-menu .rice-food a {
+  text-decoration: none;
 }
 body .main-menu .rice-food button {
   border-radius: 10px;
