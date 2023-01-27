@@ -66,4 +66,46 @@ body .main-cart .button {
 }
 body .main-cart .button:hover {
   opacity: 1;
+}
+body footer {
+  display: flex;
+  background: rgb(46, 46, 46);
+  padding: 20px 0px;
+}
+body footer .paragraph-1 {
+  color: white;
+  padding-top: 40px;
+}
+body footer .paragraph-1 p {
+  margin-left: 200px;
+}
+body footer .paragraph-2 {
+  margin-left: 70px;
+  color: white;
+  padding-top: 40px;
+}
+body footer .paragraph-2 .text-border {
+  border-bottom: 1px solid gray;
+}
+body footer .paragraph-2 .text-border a {
+  color: #fff;
+  text-decoration: none;
+}
+body footer .paragraph-2 .text-border a:link {
+  color: #fff;
+}
+body footer .paragraph-2 .text-border a:visited {
+  color: #fff;
+}
+body footer .paragraph-2 .text-border a:hover {
+  color: rgb(152, 152, 152);
+}
+body footer .paragraph-2 .menu-giohang {
+  border-bottom: 1px solid gray;
+}
+body footer .paragraph-2 .last-text-box p {
+  padding: 10px;
+}
+body footer img {
+  margin: 35px 300px;
 }/*# sourceMappingURL=style-giohang.css.map */

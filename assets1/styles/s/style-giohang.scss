@@ -81,5 +81,53 @@ body {
             opacity: 1;
         }
         
-        }
     }
+
+    footer{
+        display: flex;
+        background: rgb(46, 46, 46);
+        padding: 20px 0px;
+        .paragraph-1{
+          color:white;
+          padding-top: 40px;
+          p{
+            margin-left: 200px;
+          }
+        }
+        .paragraph-2{
+          margin-left: 70px;
+          color: white;
+          padding-top: 40px;
+          
+          .text-border{
+            border-bottom: 1px solid gray;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            a:link{
+                color: #fff;
+            }
+            a:visited{
+                color: #fff;
+            }
+            a:hover {
+                color: rgb(152, 152, 152);
+            }
+          }
+    
+          .menu-giohang{
+            border-bottom: 1px solid gray;
+          }
+          .last-text-box{
+            p{
+                padding: 10px;
+            }
+          }
+        }
+        img{
+          margin: 35px 300px;
+        }
+      }
+}
